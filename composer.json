@@ -1,0 +1,46 @@
+{
+  "name": "cmfstore/mediawiki-kernel",
+  "type": "mediawiki-extension",
+  "description": "MediaWiki CMF Store kernel extension.",
+  "license": "MIT",
+  "homepage": "https://github.com/cmfstore",
+  "keywords": [
+    "mediawiki",
+    "kernel"
+  ],
+  "authors": [
+    {
+      "name": "z17 Dev",
+      "email": "mail@z17.Dev",
+      "homepage": "https://z17.dev/",
+      "role": "Developer"
+    },
+    {
+      "name": "z17 CX",
+      "email": "mail@z17.cx",
+      "homepage": "https://z17.cx/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/cmfstore/mediawiki-kernel/issues",
+    "source": "https://github.com/cmfstore/mediawiki-kernel"
+  },
+  "require": {
+    "php": ">=7.2",
+    "composer/installers": "^1.0.1",
+    "cmfstore/mediawiki-kernel": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "MW_EXT_Kernel.class.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "prepend-autoloader": false
+  },
+  "extra": {
+    "installer-name": "MW_EXT_Kernel"
+  }
+}
