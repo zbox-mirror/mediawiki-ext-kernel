@@ -25,7 +25,3 @@ jobs:
           git_email: "${{ secrets.BOT_GITHUB_EMAIL }}"
           git_token: "${{ secrets.BOT_GITHUB_TOKEN }}"
           obs_user: "${{ secrets.OBS_USER }}"
-          obs_password: "${{ secrets.OBS_PASSWORD }}"
-          obs_token: "${{ secrets.OBS_TOKEN }}"
-          obs_project: "home:${{ env.owner }}:${{ env.TAR_CMF }}"
-          obs_package: "${{ env.TAR_NAME }}"
