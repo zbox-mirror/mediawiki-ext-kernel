@@ -24,4 +24,3 @@ jobs:
           git_user: "${{ secrets.BOT_GITHUB_NAME }}"
           git_email: "${{ secrets.BOT_GITHUB_EMAIL }}"
           git_token: "${{ secrets.BOT_GITHUB_TOKEN }}"
-          obs_user: "${{ secrets.OBS_USER }}"
