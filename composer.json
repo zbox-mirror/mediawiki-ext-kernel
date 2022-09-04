@@ -28,8 +28,7 @@
   },
   "require": {
     "php": ">=7.2",
-    "composer/installers": "^1.0.1",
-    "cmfstore/mediawiki-kernel": "*"
+    "composer/installers": "^1.0.1"
   },
   "autoload": {
     "classmap": [
