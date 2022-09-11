@@ -1,5 +1,5 @@
 {
-  "name": "cmfstore/mediawiki-ext-kernel",
+  "name": "zmarket/mediawiki-ext-kernel",
   "type": "mediawiki-extension",
   "description": "MediaWiki CMF Store kernel extension.",
   "license": "MIT",
@@ -23,8 +23,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/cmfstore/mediawiki-ext-kernel/issues",
-    "source": "https://github.com/cmfstore/mediawiki-ext-kernel"
+    "issues": "https://github.com/zbox/mediawiki-ext-kernel/issues",
+    "source": "https://github.com/zbox/mediawiki-ext-kernel"
   },
   "require": {
     "php": ">=7.2",
